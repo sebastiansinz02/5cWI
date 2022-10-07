@@ -6,16 +6,15 @@ public class Addieren {
     public static void main(String[] args) {
 
         Scanner Number = new Scanner(System.in);
-        String addierteNumber;
+
 
         System.out.println("Enter first number");
-        addierteNumber = Number.nextLine();
+        String Number1 = Number.nextLine();
 
-        System.out.println("Enter second number");
-        addierteNumber = Number.nextLine();
+        System.out.println("enter second number");
+        String Number2 = Number.nextLine();
 
-
-        System.out.println("first Number  is = " + addierteNumber);
+        System.out.println("the Numbers are = " + Number1 + Number2);
 
     }
 }
