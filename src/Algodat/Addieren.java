@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Addieren {
     public static void main(String[] args) {
 
+
         Scanner Number = new Scanner(System.in);
 
 
