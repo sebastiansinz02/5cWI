@@ -8,11 +8,11 @@ public class LinkedList implements HTLList {
     @Override
     public void add(int value) {
         Node n = new Node(4);
-        if (root==null){
-            root=n;
+        if (root == null) {
+            root = n;
         } else {
             Node actual = root;
-            while (actual.getNext()!=null){
+            while (actual.getNext() != null) {
                 actual = actual.getNext();
             }
             actual.setNext(n);
@@ -22,12 +22,19 @@ public class LinkedList implements HTLList {
 
     @Override
     public int get(int index) {
-        return -1;
-
+        Node actual = root;
+        for (int i = 0; i < index - 1; i++) {
+            actual = actual.getNext();
+        }
+        return actual.getValue();
     }
 
     @Override
     public void remove(int index) {
-
+        Node actual = root;
+        for (int i = 0; i<index - 1; i++){
+            actual = actual.getNext();
+        }
+        actual.setNext(null);
     }
 }
