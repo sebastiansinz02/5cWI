@@ -19,9 +19,9 @@ public class Stack implements HTLStack {
     @Override
     public int pop() {
         if (top == null) {
-            System.out.println("----------------------");
+            System.out.println("+++++++++++++++++");
             System.out.println("No Value");
-            System.out.println("----------------------");
+            System.out.println("+++++++++++++++++");
             return -1;
         }
         Node node = top;
