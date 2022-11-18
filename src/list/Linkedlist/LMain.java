@@ -12,7 +12,5 @@ public class LMain {
         System.out.println(ll.get(5));
 
 
-
-
     }
 }

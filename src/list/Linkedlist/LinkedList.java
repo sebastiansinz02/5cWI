@@ -1,4 +1,5 @@
 package list.Linkedlist;
+
 import list.HTLList;
 import list.Node;
 
@@ -41,11 +42,10 @@ public class LinkedList implements HTLList {
         Node actual = root;
         int counter = 0;
         while (actual.getNext() != null) {
-            if (index == 0){
-                root  = root.getNext();
+            if (index == 0) {
+                root = root.getNext();
                 return;
-            }
-            else if(counter == index){
+            } else if (counter == index) {
                 while (actual.getNext() != null) {
                     actual.setValue(actual.getNext().getValue());
                     actual = actual.getNext();

@@ -1,4 +1,5 @@
 package list.Stack;
+
 import list.HTLStack;
 import list.Node;
 
@@ -17,7 +18,7 @@ public class Stack implements HTLStack {
 
     @Override
     public int pop() {
-        if(top==null){
+        if (top == null) {
             System.out.println("----------------------");
             System.out.println("No Value");
             System.out.println("----------------------");
@@ -31,7 +32,7 @@ public class Stack implements HTLStack {
 
     @Override
     public int peak() {
-        if(top==null){
+        if (top == null) {
             System.out.println("----------------------");
             System.out.println("No Value");
             System.out.println("----------------------");
