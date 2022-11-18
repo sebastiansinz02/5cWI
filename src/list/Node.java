@@ -1,4 +1,4 @@
-package list.linkedlist;
+package list;
 
 public class Node {
     private int value;
@@ -13,17 +13,15 @@ public class Node {
         return value;
     }
 
-    public Node setValue(int value) {
+    public void setValue(int value) {
         this.value = value;
-        return this;
     }
 
     public Node getNext() {
         return next;
     }
 
-    public Node setNext(Node next) {
+    public void setNext(Node next) {
         this.next = next;
-        return this;
     }
 }
