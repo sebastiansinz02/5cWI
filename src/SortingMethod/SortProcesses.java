@@ -2,7 +2,7 @@ package SortingMethod;
 
 public class SortProcesses {
     public static void main(String[] args) {
-        int[] intArray = {9, 41, 2, 72, 2, 5, 5};
+        int[] intArray = {8, 41, 2, 72, 3, 5, 5};
         int[] selectionArray = selectionSort(intArray);
         int[] bubbleArray = bubbleSort(intArray);
         int[] insertionArray = insertionSort(intArray);
