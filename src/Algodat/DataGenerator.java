@@ -2,8 +2,8 @@ package Algodat;
 
 public class DataGenerator {
     public static void main(String[] args) {
-        int[] arr1 = generateDataArray(4);
-        int[] arr2 = generateDataArray(4, -5, 50);
+        int[] arr1 = generateDataArray(5);
+        int[] arr2 = generateDataArray(5, -5, 50);
         printArray(arr1);
         printArray(arr2);
     }
