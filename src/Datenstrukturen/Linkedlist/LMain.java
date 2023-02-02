@@ -1,4 +1,4 @@
-package list.Linkedlist;
+package Datenstrukturen.Linkedlist;
 
 public class LMain {
     public static void main(String[] args) {

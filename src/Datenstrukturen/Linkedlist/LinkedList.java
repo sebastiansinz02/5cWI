@@ -1,7 +1,7 @@
-package list.Linkedlist;
+package Datenstrukturen.Linkedlist;
 
-import list.HTLList;
-import list.Node;
+import Datenstrukturen.HTLList;
+import Datenstrukturen.Node;
 
 public class LinkedList implements HTLList {
     private Node root;

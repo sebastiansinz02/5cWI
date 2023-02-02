@@ -1,7 +1,7 @@
-package list.Queue;
+package Datenstrukturen.Queue;
 
-import list.HTLQueue;
-import list.Node;
+import Datenstrukturen.HTLQueue;
+import Datenstrukturen.Node;
 
 public class Queue implements HTLQueue {
     int length = 0;

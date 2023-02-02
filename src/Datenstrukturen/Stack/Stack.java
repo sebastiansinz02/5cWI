@@ -1,7 +1,7 @@
-package list.Stack;
+package Datenstrukturen.Stack;
 
-import list.HTLStack;
-import list.Node;
+import Datenstrukturen.HTLStack;
+import Datenstrukturen.Node;
 
 public class Stack implements HTLStack {
 

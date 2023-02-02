@@ -1,4 +1,4 @@
-package list;
+package Datenstrukturen;
 
 public interface HTLList {
         public void add(int value);

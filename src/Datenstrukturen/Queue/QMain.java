@@ -1,4 +1,4 @@
-package list.Queue;
+package Datenstrukturen.Queue;
 
 public class QMain {
     public static void main(String[] args) {

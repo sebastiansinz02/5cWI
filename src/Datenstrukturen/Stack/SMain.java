@@ -1,4 +1,4 @@
-package list.Stack;
+package Datenstrukturen.Stack;
 
 public class SMain {
     public static void main(String[] args) {

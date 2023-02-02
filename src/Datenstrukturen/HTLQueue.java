@@ -1,4 +1,4 @@
-package list;
+package Datenstrukturen;
 
 public interface HTLQueue {
     public void enqueue(int value);

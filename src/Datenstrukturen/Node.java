@@ -1,4 +1,4 @@
-package list;
+package Datenstrukturen;
 
 public class Node {
     private int value;

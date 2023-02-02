@@ -1,4 +1,4 @@
-package list;
+package Datenstrukturen;
 
 public interface HTLStack {
     public void push(int value);
